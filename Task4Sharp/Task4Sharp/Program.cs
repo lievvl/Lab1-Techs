@@ -113,7 +113,8 @@ namespace Task4Sharp
     {
         public static void Main(string[] args)
         {
-            var result = BenchmarkRunner.Run<BenchmarkBubble>();
+            var b = new BenchmarkBubble();
+            b.SortBubble();
             Console.WriteLine("End");
         }
     }
