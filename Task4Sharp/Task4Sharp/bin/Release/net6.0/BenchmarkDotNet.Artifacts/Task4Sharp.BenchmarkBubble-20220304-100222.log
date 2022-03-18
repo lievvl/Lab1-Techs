@@ -1,0 +1,141 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\Пользователь\Desktop\Lab1 Techs\Task4Sharp\Task4Sharp\bin\Release\net6.0\1c8ff132-78c5-44bb-bbd7-a1067ed9e0eb
+// command took 1,27s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\Пользователь\Desktop\Lab1 Techs\Task4Sharp\Task4Sharp\bin\Release\net6.0\1c8ff132-78c5-44bb-bbd7-a1067ed9e0eb
+// command took 2,11s and exited with 0
+// ***** Done, took 00:00:03 (3.55 sec)   *****
+// Found 1 benchmarks:
+//   BenchmarkBubble.Sort: DefaultJob
+
+// **************************
+// Benchmark: BenchmarkBubble.Sort: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "1c8ff132-78c5-44bb-bbd7-a1067ed9e0eb.dll" --benchmarkName "Task4Sharp.BenchmarkBubble.Sort" --job "Default" --benchmarkId 0 in C:\Users\Пользователь\Desktop\Lab1 Techs\Task4Sharp\Task4Sharp\bin\Release\net6.0\1c8ff132-78c5-44bb-bbd7-a1067ed9e0eb\bin\Release\net6.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 230900.00 ns, 230.9000 us/op
+WorkloadJitting  1: 1 op, 130429700.00 ns, 130.4297 ms/op
+
+WorkloadPilot    1: 2 op, 185963300.00 ns, 92.9817 ms/op
+WorkloadPilot    2: 3 op, 284180000.00 ns, 94.7267 ms/op
+WorkloadPilot    3: 4 op, 389332200.00 ns, 97.3331 ms/op
+WorkloadPilot    4: 5 op, 463810900.00 ns, 92.7622 ms/op
+WorkloadPilot    5: 6 op, 564758400.00 ns, 94.1264 ms/op
+
+WorkloadWarmup   1: 6 op, 558400900.00 ns, 93.0668 ms/op
+WorkloadWarmup   2: 6 op, 557247800.00 ns, 92.8746 ms/op
+WorkloadWarmup   3: 6 op, 557384600.00 ns, 92.8974 ms/op
+WorkloadWarmup   4: 6 op, 564654600.00 ns, 94.1091 ms/op
+WorkloadWarmup   5: 6 op, 558673900.00 ns, 93.1123 ms/op
+WorkloadWarmup   6: 6 op, 570809600.00 ns, 95.1349 ms/op
+WorkloadWarmup   7: 6 op, 556261700.00 ns, 92.7103 ms/op
+
+// BeforeActualRun
+WorkloadActual   1: 6 op, 556400600.00 ns, 92.7334 ms/op
+WorkloadActual   2: 6 op, 555646800.00 ns, 92.6078 ms/op
+WorkloadActual   3: 6 op, 555573900.00 ns, 92.5957 ms/op
+WorkloadActual   4: 6 op, 556378400.00 ns, 92.7297 ms/op
+WorkloadActual   5: 6 op, 555833600.00 ns, 92.6389 ms/op
+WorkloadActual   6: 6 op, 555843600.00 ns, 92.6406 ms/op
+WorkloadActual   7: 6 op, 562896300.00 ns, 93.8161 ms/op
+WorkloadActual   8: 6 op, 555894500.00 ns, 92.6491 ms/op
+WorkloadActual   9: 6 op, 556102500.00 ns, 92.6838 ms/op
+WorkloadActual  10: 6 op, 556337400.00 ns, 92.7229 ms/op
+WorkloadActual  11: 6 op, 556478400.00 ns, 92.7464 ms/op
+WorkloadActual  12: 6 op, 556021200.00 ns, 92.6702 ms/op
+WorkloadActual  13: 6 op, 555746500.00 ns, 92.6244 ms/op
+WorkloadActual  14: 6 op, 557113400.00 ns, 92.8522 ms/op
+WorkloadActual  15: 6 op, 555628400.00 ns, 92.6047 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 6 op, 556400600.00 ns, 92.7334 ms/op
+WorkloadResult   2: 6 op, 555646800.00 ns, 92.6078 ms/op
+WorkloadResult   3: 6 op, 555573900.00 ns, 92.5957 ms/op
+WorkloadResult   4: 6 op, 556378400.00 ns, 92.7297 ms/op
+WorkloadResult   5: 6 op, 555833600.00 ns, 92.6389 ms/op
+WorkloadResult   6: 6 op, 555843600.00 ns, 92.6406 ms/op
+WorkloadResult   7: 6 op, 555894500.00 ns, 92.6491 ms/op
+WorkloadResult   8: 6 op, 556102500.00 ns, 92.6838 ms/op
+WorkloadResult   9: 6 op, 556337400.00 ns, 92.7229 ms/op
+WorkloadResult  10: 6 op, 556478400.00 ns, 92.7464 ms/op
+WorkloadResult  11: 6 op, 556021200.00 ns, 92.6702 ms/op
+WorkloadResult  12: 6 op, 555746500.00 ns, 92.6244 ms/op
+WorkloadResult  13: 6 op, 557113400.00 ns, 92.8522 ms/op
+WorkloadResult  14: 6 op, 555628400.00 ns, 92.6047 ms/op
+GC:  0 0 0 3544 6
+Threading:  0 0 6
+
+// AfterAll
+// Benchmark Process 30624 has exited with code 0.
+
+Mean = 92.679 ms, StdErr = 0.019 ms (0.02%), N = 14, StdDev = 0.072 ms
+Min = 92.596 ms, Q1 = 92.628 ms, Median = 92.660 ms, Q3 = 92.728 ms, Max = 92.852 ms
+IQR = 0.100 ms, LowerFence = 92.478 ms, UpperFence = 92.878 ms
+ConfidenceInterval = [92.598 ms; 92.759 ms] (CI 99.9%), Margin = 0.081 ms (0.09% of Mean)
+Skewness = 0.84, Kurtosis = 2.9, MValue = 2
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Task4Sharp.BenchmarkBubble-report.csv
+  BenchmarkDotNet.Artifacts\results\Task4Sharp.BenchmarkBubble-report-github.md
+  BenchmarkDotNet.Artifacts\results\Task4Sharp.BenchmarkBubble-report.html
+
+// * Detailed results *
+BenchmarkBubble.Sort: DefaultJob
+Runtime = .NET 6.0.1 (6.0.121.56705), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 92.679 ms, StdErr = 0.019 ms (0.02%), N = 14, StdDev = 0.072 ms
+Min = 92.596 ms, Q1 = 92.628 ms, Median = 92.660 ms, Q3 = 92.728 ms, Max = 92.852 ms
+IQR = 0.100 ms, LowerFence = 92.478 ms, UpperFence = 92.878 ms
+ConfidenceInterval = [92.598 ms; 92.759 ms] (CI 99.9%), Margin = 0.081 ms (0.09% of Mean)
+Skewness = 0.84, Kurtosis = 2.9, MValue = 2
+-------------------- Histogram --------------------
+[92.557 ms ; 92.891 ms) | @@@@@@@@@@@@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.19043.1526 (21H1/May2021Update)
+AMD Ryzen 7 5700U with Radeon Graphics, 1 CPU, 16 logical and 8 physical cores
+.NET SDK=6.0.101
+  [Host]     : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT  [AttachedDebugger]
+  DefaultJob : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+
+
+| Method |     Mean |    Error |   StdDev | Allocated |
+|------- |---------:|---------:|---------:|----------:|
+|   Sort | 92.68 ms | 0.081 ms | 0.072 ms |     591 B |
+
+// * Warnings *
+Environment
+  Summary -> Benchmark was executed with attached debugger
+
+// * Hints *
+Outliers
+  BenchmarkBubble.Sort: Default -> 1 outlier  was  removed (93.82 ms)
+
+// * Legends *
+  Mean      : Arithmetic mean of all measurements
+  Error     : Half of 99.9% confidence interval
+  StdDev    : Standard deviation of all measurements
+  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  1 ms      : 1 Millisecond (0.001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:00:15 (15.63 sec), executed benchmarks: 1
+
+Global total time: 00:00:19 (19.19 sec), executed benchmarks: 1
+// * Artifacts cleanup *

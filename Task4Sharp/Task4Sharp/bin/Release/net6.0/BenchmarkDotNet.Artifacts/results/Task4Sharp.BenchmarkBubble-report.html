@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Task4Sharp.BenchmarkBubble-20220304-101234</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.19043.1526 (21H1/May2021Update)
+AMD Ryzen 7 5700U with Radeon Graphics, 1 CPU, 16 logical and 8 physical cores
+.NET SDK=6.0.101
+  [Host]     : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT  [AttachedDebugger]
+  DefaultJob : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method</th><th>  Mean</th><th>Error</th><th>StdDev</th><th>Gen 0</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>SortBubble</td><td>69,886.53 &mu;s</td><td>58.865 &mu;s</td><td>55.062 &mu;s</td><td>-</td><td>48 B</td>
+</tr><tr><td>SortStd</td><td>69.03 &mu;s</td><td>0.211 &mu;s</td><td>0.187 &mu;s</td><td>-</td><td>-</td>
+</tr><tr><td>MergeSort</td><td>310.83 &mu;s</td><td>2.273 &mu;s</td><td>2.015 &mu;s</td><td>377.9297</td><td>792,040 B</td>
+</tr></tbody></table>
+</body>
+</html>

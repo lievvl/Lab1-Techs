@@ -1,0 +1,10 @@
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task2F\Task2F\bin\Debug\net6.0\Task2F.deps.json
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task2F\Task2F\bin\Debug\net6.0\Task2F.dll
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task2F\Task2F\bin\Debug\net6.0\Task2F.pdb
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task2F\Task2F\bin\Debug\net6.0\Task2F.xml
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task2F\Task2F\obj\Debug\net6.0\Task2F.fsproj.AssemblyReference.cache
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task2F\Task2F\obj\Debug\net6.0\Task2F.AssemblyInfoInputs.cache
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task2F\Task2F\obj\Debug\net6.0\Task2F.AssemblyInfo.fs
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task2F\Task2F\obj\Debug\net6.0\Task2F.dll
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task2F\Task2F\obj\Debug\net6.0\Task2F.xml
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task2F\Task2F\obj\Debug\net6.0\Task2F.pdb

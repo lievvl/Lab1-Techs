@@ -1,0 +1,40 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\Пользователь\Desktop\Lab1 Techs\Task4Sharp\Task4Sharp\bin\Release\net6.0\3b3aa2a4-468e-4002-9934-24983e7fc7f5
+// command took 1,27s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\Пользователь\Desktop\Lab1 Techs\Task4Sharp\Task4Sharp\bin\Release\net6.0\3b3aa2a4-468e-4002-9934-24983e7fc7f5
+// command took 2,1s and exited with 0
+// ***** Done, took 00:00:03 (3.54 sec)   *****
+// Found 1 benchmarks:
+//   BenchmarkBubble.Sort: DefaultJob
+
+// **************************
+// Benchmark: BenchmarkBubble.Sort: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "3b3aa2a4-468e-4002-9934-24983e7fc7f5.dll" --benchmarkName "Task4Sharp.BenchmarkBubble.Sort" --job "Default" --benchmarkId 0 in C:\Users\Пользователь\Desktop\Lab1 Techs\Task4Sharp\Task4Sharp\bin\Release\net6.0\3b3aa2a4-468e-4002-9934-24983e7fc7f5\bin\Release\net6.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 189100.00 ns, 189.1000 us/op
+WorkloadJitting  1: 1 op, 125962300.00 ns, 125.9623 ms/op
+
+WorkloadPilot    1: 2 op, 185170400.00 ns, 92.5852 ms/op
+WorkloadPilot    2: 3 op, 277984600.00 ns, 92.6615 ms/op
+WorkloadPilot    3: 4 op, 370367500.00 ns, 92.5919 ms/op
+WorkloadPilot    4: 5 op, 463018300.00 ns, 92.6037 ms/op
+WorkloadPilot    5: 6 op, 556745300.00 ns, 92.7909 ms/op
+
+WorkloadWarmup   1: 6 op, 556249200.00 ns, 92.7082 ms/op
+WorkloadWarmup   2: 6 op, 558375500.00 ns, 93.0626 ms/op
+WorkloadWarmup   3: 6 op, 558951100.00 ns, 93.1585 ms/op
+WorkloadWarmup   4: 6 op, 555459800.00 ns, 92.5766 ms/op
+WorkloadWarmup   5: 6 op, 555717900.00 ns, 92.6196 ms/op
+WorkloadWarmup   6: 6 op, 556320500.00 ns, 92.7201 ms/op
+WorkloadWarmup   7: 6 op, 557611800.00 ns, 92.9353 ms/op

@@ -1,0 +1,15 @@
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task3Sharp\Task3Sharp\bin\Debug\net6.0\Task3Sharp.exe
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task3Sharp\Task3Sharp\bin\Debug\net6.0\Task3Sharp.deps.json
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task3Sharp\Task3Sharp\bin\Debug\net6.0\Task3Sharp.runtimeconfig.json
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task3Sharp\Task3Sharp\bin\Debug\net6.0\Task3Sharp.dll
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task3Sharp\Task3Sharp\bin\Debug\net6.0\ref\Task3Sharp.dll
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task3Sharp\Task3Sharp\bin\Debug\net6.0\Task3Sharp.pdb
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task3Sharp\Task3Sharp\obj\Debug\net6.0\Task3Sharp.csproj.AssemblyReference.cache
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task3Sharp\Task3Sharp\obj\Debug\net6.0\Task3Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task3Sharp\Task3Sharp\obj\Debug\net6.0\Task3Sharp.AssemblyInfoInputs.cache
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task3Sharp\Task3Sharp\obj\Debug\net6.0\Task3Sharp.AssemblyInfo.cs
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task3Sharp\Task3Sharp\obj\Debug\net6.0\Task3Sharp.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task3Sharp\Task3Sharp\obj\Debug\net6.0\Task3Sharp.dll
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task3Sharp\Task3Sharp\obj\Debug\net6.0\ref\Task3Sharp.dll
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task3Sharp\Task3Sharp\obj\Debug\net6.0\Task3Sharp.pdb
+C:\Users\Пользователь\Desktop\Lab1 Techs\Task3Sharp\Task3Sharp\obj\Debug\net6.0\Task3Sharp.genruntimeconfig.cache

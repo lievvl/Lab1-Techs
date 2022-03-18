@@ -1,0 +1,15 @@
+C:\Users\Пользователь\Desktop\Lab1 Techs\MyDll\DllTest\bin\Debug\net6.0\DllTest.exe
+C:\Users\Пользователь\Desktop\Lab1 Techs\MyDll\DllTest\bin\Debug\net6.0\DllTest.deps.json
+C:\Users\Пользователь\Desktop\Lab1 Techs\MyDll\DllTest\bin\Debug\net6.0\DllTest.runtimeconfig.json
+C:\Users\Пользователь\Desktop\Lab1 Techs\MyDll\DllTest\bin\Debug\net6.0\DllTest.dll
+C:\Users\Пользователь\Desktop\Lab1 Techs\MyDll\DllTest\bin\Debug\net6.0\ref\DllTest.dll
+C:\Users\Пользователь\Desktop\Lab1 Techs\MyDll\DllTest\bin\Debug\net6.0\DllTest.pdb
+C:\Users\Пользователь\Desktop\Lab1 Techs\MyDll\DllTest\obj\Debug\net6.0\DllTest.csproj.AssemblyReference.cache
+C:\Users\Пользователь\Desktop\Lab1 Techs\MyDll\DllTest\obj\Debug\net6.0\DllTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\Desktop\Lab1 Techs\MyDll\DllTest\obj\Debug\net6.0\DllTest.AssemblyInfoInputs.cache
+C:\Users\Пользователь\Desktop\Lab1 Techs\MyDll\DllTest\obj\Debug\net6.0\DllTest.AssemblyInfo.cs
+C:\Users\Пользователь\Desktop\Lab1 Techs\MyDll\DllTest\obj\Debug\net6.0\DllTest.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\Lab1 Techs\MyDll\DllTest\obj\Debug\net6.0\DllTest.dll
+C:\Users\Пользователь\Desktop\Lab1 Techs\MyDll\DllTest\obj\Debug\net6.0\ref\DllTest.dll
+C:\Users\Пользователь\Desktop\Lab1 Techs\MyDll\DllTest\obj\Debug\net6.0\DllTest.pdb
+C:\Users\Пользователь\Desktop\Lab1 Techs\MyDll\DllTest\obj\Debug\net6.0\DllTest.genruntimeconfig.cache

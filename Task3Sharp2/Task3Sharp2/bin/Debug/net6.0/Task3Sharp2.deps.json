@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Task3Sharp2/1.0.0": {
+        "dependencies": {
+          "Task3Sharp": "1.0.0"
+        },
+        "runtime": {
+          "Task3Sharp2.dll": {}
+        }
+      },
+      "Task3Sharp/1.0.0": {
+        "runtime": {
+          "lib/net6.0/Task3Sharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Task3Sharp2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Task3Sharp/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N3wRGU2tBEgOkNbeTPkOb6iWWxzIU0jIYPvBLJQgQayVPmmghmXZ/ST6hHp2Tuer87pCfklIyvdZtW8wog4QmQ==",
+      "path": "task3sharp/1.0.0",
+      "hashPath": "task3sharp.1.0.0.nupkg.sha512"
+    }
+  }
+}

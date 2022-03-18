@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Kuq5DVvAe24rLFOm5dewZg3lOumFcuBjpfSTzL15nOoR/EYjX39bx3UQo59HnZ7tmGm6vpNyQglCTFyJJdnJRg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Пользователь\\Desktop\\Lab1 Techs\\Task2F\\Task2F\\Task2F.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Пользователь\\.nuget\\packages\\fsharp.core\\6.0.1\\fsharp.core.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

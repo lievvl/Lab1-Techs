@@ -1,0 +1,2 @@
+JMH S 47 com.javadevcentral.jmh.demo.HelloWorldBenchmark S 88 com.javadevcentral.jmh.demo.jmh_generated.HelloWorldBenchmark_MergesortBenchmark_jmhTest S 18 MergesortBenchmark S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 47 com.javadevcentral.jmh.demo.HelloWorldBenchmark S 86 com.javadevcentral.jmh.demo.jmh_generated.HelloWorldBenchmark_StdSortBenchmark_jmhTest S 16 StdSortBenchmark S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
